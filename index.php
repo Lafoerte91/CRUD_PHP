@@ -39,7 +39,9 @@ td {
         <td><?= $product[1] ?></td>
         <td><?= $product[3] ?></td>
         <td><?= $product[2] ?></td>
+        <td><a href="product.php?id=<?= $product[0] ?>">View</a></td>
         <td><a href="./update.php?id=<?= $product[0] ?>">Update</a></td>
+        <td><a style="color: red;" href="./vendor/delete.php?id=<?= $product[0] ?>">Delete</a></td>
       </tr>
     <?php }
   ?>  
